@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(letuchka_4 VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.26)
+project(letuchka_4 VERSION 0.1.0 LANGUAGES CXX)
 
 include(CTest)
 enable_testing()
