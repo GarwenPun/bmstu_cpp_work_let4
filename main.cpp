@@ -23,7 +23,7 @@ void printXML()
     std::cout << "<MobilePhones>" << std::endl;
     for (int i = 0; i < num_phones; i++)
     {
-        std::cout << "<MobilePhone id=\"" << i << "\" weight =\""
+        std::cout << "    <MobilePhone id=\"" << i << "\" weight =\""
                   << phones[i].weight << "\" is_broken=\"" << (phones[i].is_broken ? "true" : "false")
                   << "\" price=\"" << phones[i].price << "\"/>" << std::endl;
     }
